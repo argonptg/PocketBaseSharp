@@ -92,11 +92,11 @@ public class Collection(HttpClient httpClient, string url, string collectionName
         }
     }
     
-    public async Task<Item?> Update(string body, string? expand = null)
+    public async Task<Item?> Update(string recordId, string body, string? expand = null)
     {
         try
         {
-            var uri = $"{_baseUri}records";
+            var uri = $"{_baseUri}records/{recordId}";
 
             // yada yada yada you get the deal
             if (!string.IsNullOrEmpty(expand)) uri += $"?{expand}";
@@ -109,6 +109,7 @@ public class Collection(HttpClient httpClient, string url, string collectionName
                 .PatchAsync(uri, new StringContent(body, Encoding.UTF8, "application/json"));
             response.EnsureSuccessStatusCode();
             var jsonContent = await response.Content.ReadAsStringAsync();
+            Console.WriteLine(jsonContent);
             
             return JsonConvert.DeserializeObject<Item>(jsonContent);
             

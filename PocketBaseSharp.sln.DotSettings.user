@@ -1,0 +1,19 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003AHttpResponseMessage_002Ecs_002Fl_003A_002E_002E_003F_002E_002E_003F_002E_002E_003F_002Econfig_003FJetBrains_003FRider2024_002E3_003Fresharper_002Dhost_003FDecompilerCache_003Fdecompiler_003F398f6ef3723247b4a9bdb2fe58047bef1a1e00_003Fb8_003Fb4650d2c_003FHttpResponseMessage_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=b5aa231e_002D64e9_002D4846_002Dafc8_002D842b44845bbf/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Test1" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::869418F8-B1E4-4A32-83BA-74A58C8114A0::net9.0::PocketBaseSharp.Testing.Collection_GetList&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::869418F8-B1E4-4A32-83BA-74A58C8114A0::net9.0::PocketBaseSharp.Testing.Collection_GetOne.GetOne_WithValidParams_ReturnsRecord&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::869418F8-B1E4-4A32-83BA-74A58C8114A0::net9.0::PocketBaseSharp.Testing.Collection_GetOne.GetOne_WithInvalidParams_ReturnsNull&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::869418F8-B1E4-4A32-83BA-74A58C8114A0::net9.0::PocketBaseSharp.Testing.Collection_Create.Create_WithValidData_ShouldReturnRecord&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::869418F8-B1E4-4A32-83BA-74A58C8114A0::net9.0::PocketBaseSharp.Testing.Collection_Create.Create_WithInvalidData_ShouldThrow&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::869418F8-B1E4-4A32-83BA-74A58C8114A0::net9.0::PocketBaseSharp.Testing.Collection_Update.Update_WithValidPayload_ShouldReturnRecord&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::869418F8-B1E4-4A32-83BA-74A58C8114A0::net9.0::PocketBaseSharp.Testing.Collection_Update.Update_WithInvalidPayload_ShouldThrow&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::869418F8-B1E4-4A32-83BA-74A58C8114A0::net9.0::PocketBaseSharp.Testing.Collection_Update.Update_WithInvalidPayload_ShouldntThrow&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::869418F8-B1E4-4A32-83BA-74A58C8114A0::net9.0::PocketBaseSharp.Testing.Collection_Update.Update_WithInvalidPayload_ShouldReturnRecord&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::869418F8-B1E4-4A32-83BA-74A58C8114A0::net9.0::PocketBaseSharp.Testing.Collection_Update.Update_WithInvalidRecordId_ShouldThrow&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::869418F8-B1E4-4A32-83BA-74A58C8114A0::net9.0::PocketBaseSharp.Testing.Collection_GetOne.GetOne_WithValidParams_ShouldReturnRecord&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::869418F8-B1E4-4A32-83BA-74A58C8114A0::net9.0::PocketBaseSharp.Testing.Collection_GetOne.GetOne_WithInvalidParams_ShouldThrow&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=testingrecordid/@EntryIndexedValue">True</s:Boolean></wpf:ResourceDictionary>
